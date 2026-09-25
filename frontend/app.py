@@ -266,10 +266,9 @@ with col3:
 
 with col4:
     bath = st.number_input("🚿  Bathrooms", min_value=1, max_value=10, value=2)
-
 # ── Predict button — SAME LOGIC AS ORIGINAL ───────────────────
 if st.button("✦  Predict Price"):
-    url = "https://bengaluru-house-price-prediction-775j.onrender.com/predict"
+    url = "https://bengaluru-house-price-prediction-775j.onrender.com/user"
 
     payload = {
         "total_sqft": float(total_sqft),
