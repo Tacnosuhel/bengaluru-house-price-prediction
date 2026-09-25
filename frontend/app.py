@@ -269,7 +269,7 @@ with col4:
 
 # ── Predict button — SAME LOGIC AS ORIGINAL ───────────────────
 if st.button("✦  Predict Price"):
-    url = "http://127.0.0.1:8000/user"
+    url = "https://bengaluru-house-price-prediction-775j.onrender.com/predict"
 
     payload = {
         "total_sqft": float(total_sqft),
