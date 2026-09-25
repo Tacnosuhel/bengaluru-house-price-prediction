@@ -1,0 +1,13 @@
+[project]
+name = "build-backend-and-front-end"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "joblib>=1.6.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.64.0",
+]
